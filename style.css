@@ -1,0 +1,44 @@
+:root {
+    width:100%;
+}
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    box-sizing:border-box;
+    transition: 0.2s;
+    text-transform: capitalize;
+    text-decoration: none;
+    gap:3px;
+}
+html{
+    font-size:85%;
+    overflow: hidden;
+}
+.header{
+    padding :2rem 5%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right:0;
+}
+ .header img{
+    width: 50px;
+    height: 50px;
+ }
+ main{
+    
+ }
+ footer{
+    padding :2rem 5%;
+    background-color:navajowhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    position: fixed;
+    left: 0%;
+    right:0;
+ }
