@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    height: 600px;
     width: 100%;  
     background-color: rgb(183, 209, 231); 
 }
@@ -11,7 +11,7 @@ body{
     margin: 1px;
 }
 .heading{
-   height: 100%;
+   height: 50px;
    width: 100%;
    display: flex;
    align-items: center;
@@ -22,7 +22,6 @@ body{
     height: 40px;
     width: 600px;
     display: flex;
-    font-size:3rem;
     justify-content: end;
     align-items: center;
     margin-right: 20px;
@@ -44,17 +43,20 @@ body{
     color: palevioletred; 
 }
 .ci{
-    font-size: 2rem;
+    height: 50px;
+    width: 100%;     
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .para{
+    height: 50px;
+    width: 100%;  
     display: flex;
     color: black;
-    font-size: 2rem;
+    font-size: 10px;
     justify-content: center;
-    align-items:left;  
+    align-items: center;  
 }
 .numbers{
     height: 299px;
@@ -64,25 +66,28 @@ body{
     gap: 17px;
     justify-content: center;
     align-items: center;
+    
+    
+     
 }
 .numa{
-    height: 500px;
-    width: 100%;
+    height: 30px;
+    width: 60%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border-radius: 50px;  
+    border-radius: 30px;  
     background-color: rgb(219, 189, 199);
     box-shadow: 2px 2px 2px rgb(155, 155, 154);
 
 }
 .numb{
-    height: 500px;
-    width: 100%; 
+    height: 30px;
+    width: 60%; 
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border-radius: 50px;  
+    border-radius: 30px;  
     background-color:rgb(219, 189, 199);
     box-shadow: 2px 2px 2px rgb(155, 155, 154);
 }
@@ -97,22 +102,19 @@ body{
     flex-direction: row;
     border-radius: 30px;
 }
-.text.p{
-    font-size:2rem;
-}
 .ph{
     height: 30px;
     width: 40%;
     display: flex;
-    font-size:1rem;
+    font-size: 10px;
     color: black;
     justify-content: center;
     align-items: center;
 
 }
 .social{
-    height: 50%;
-    width: 50%;
+    height: 400px;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,15 +122,13 @@ body{
     gap: 5px;
 }
  .top{
-    height:100%;
-    width:100%;
-    margin-top:2rem;
+    height: 290px;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;  
     align-items: center;
     gap: 6px;
-
 }
 
 .up{
@@ -164,8 +164,8 @@ body{
     flex-direction: column;
 }
 .box{
-    height: 75%;
-    width: 100%;
+    height: 50px;
+    width: 97%;
     display: flex;
     justify-content: center;  
     align-items: center;
@@ -210,34 +210,34 @@ body{
     z-index: 2;
 }
 .img1{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     display: flex;
     margin-left:5px ;
     border: 2px solid white;
 }
 .img{
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 45px;
     border-radius: 80%;
     display: flex;
     margin: 0px;
     border: 2px solid palevioletred;
 }
 .img2{
-    height: 35%;
-    width: 35%;
+    height: 130px;
+    width: 75%;
     border-radius: 20px;
     display: flex;
     margin: 0px;
     box-shadow: 2px 2px 2px rgb(155, 155, 154);   
 }
 .img3{
-    height:25px;
-    width: 25px;
+    height: 32px;
+    width: 17px;
     border-radius: 50%;
-    margin-top: 5px;
+    margin-top: 10px;
     border: 1px solid white;
 }
 .img4{

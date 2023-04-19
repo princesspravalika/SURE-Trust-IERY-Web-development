@@ -30,12 +30,35 @@
 
      <!--home section  starts-->
     <section class="home" id="home">
-        <div class="image">
-            <img src="./images/background.jpg" alt="">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./images/img1.jpg" alt="">
+                <div class="text">Caption Text</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <img src="./images/img2.jpg" alt="">
+                <div class="text">Caption Two</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <img src="./images/img 3.jpg" alt="">
+                <div class="text">Caption Three</div>
+              </div>
+              <div class="mySlides fade">
+                <img src="./images/img4.jpg" alt="">
+                <div class="text">Caption Four</div>
+              </div>
+              <div class="dot" onclick="current(1)"></div>
+              <div class="dot" onclick="current(2)"></div>
+              <div class="dot" onclick="current(3)"></div>
+              <div class="dot" onclick="current(4)"></div>
         </div>
         <div class="content">
             <h2>we take care of your healthy life</h2>
-            <p> A person who has good physical health is likely to have bodily functions and processes working at their peak.</p>
+            <p>Maintaining good health will ultimately lead to a happy mind which is more valuable than any precious gift in today’s life. 
+                Having a healthy life must be a part of everyone’s lifestyle.
+                If one has a healthy and happy mind, then one will always stay motivated towards one’s work and will be productive at work.</p>
             <a href="#" class="btn">Learn More </a>
         </div>
     </section>
@@ -47,25 +70,25 @@
         <div class="icons">
             <i class="fas fa-user-md"></i>
             <h3>100+</h3>
-            <p>doctors at work</p>
+            <p class="tooltip">doctors at work<span class="tooltiptext"></span></p>
         </div>
     
         <div class="icons">
             <i class="fas fa-users"></i>
             <h3>1000+</h3>
-            <p>satisfied patients</p>
+            <p class="tooltip">satisfied patients<span class="tooltiptext"></span></p>
         </div>
     
         <div class="icons">
             <i class="fas fa-procedures"></i>
             <h3>2500+</h3>
-            <p>bed facility</p>
+            <p class="tooltip">bed facility<span class="tooltiptext"></span></p>
         </div>
     
         <div class="icons">
             <i class="fas fa-hospital"></i>
             <h3>70+</h3>
-            <p>available hospitals</p>
+            <p class="tooltip">available hospitals<span class="tooltiptext"></span></p>
         </div>
 </section>
 <!-- icons section ends -->
