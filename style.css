@@ -88,19 +88,16 @@ section:nth-child(even){
    background:aliceblue;
 }
 
-.header #logo{
+.header #logo {
    width: 75px;
-      font-size: 2.5rem;
-      color: var(--black);
   }
-  
 .header .navbar a{
    font-size: 1.7rem;
    color: var(--PVR);
    margin-left: 2rem;
 }
 
-.header .navbar a:hover{
+ .navbar a:hover{
    color:black;
 }
 
