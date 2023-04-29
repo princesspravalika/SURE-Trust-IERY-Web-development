@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: 1100px;
+    height: 1300px;
     width: 100%;  
     background-color: rgb(183, 209, 231); 
 }
@@ -22,7 +22,7 @@ body{
 }
 .right{
     height: 60px;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -32,23 +32,28 @@ body{
 }
 .middle{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
     margin: 1px;
     gap: 1px;
    
 }
 .con_inf{
-    height: 670px;
+    height: 720px;
     width: 60%;   
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: palevioletred; 
     
 }
 .ci{
     height: 80px;
     width: 100%;     
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,24 +70,28 @@ body{
     
 }
 .numbers{
-    height: 479px;
-    width: 750px; 
+    height: 650px;
+    width: 890px; 
     display: flex;
     flex-direction: column;
     gap: 5px;
+    border: 2px solid rgb(201, 163, 176);
     justify-content: center;
     align-items: center;  
+    border-radius: 10px;
   
 }
 .numa{
-    height: 65px;
-    width: 80%;
+    height: 75px;
+    width: 85%;
     display: flex;
     justify-content: center;
     flex-direction: row;
     transition: transform .2s;
     border-radius: 5px;  
-    background-color: rgb(219, 189, 199);
+    border: 2px solid rgb(209, 175, 187);
+
+    background-color: white;
     box-shadow: 3px 3px 3px rgb(155, 155, 154);
 
 }
@@ -90,14 +99,16 @@ body{
     transform: scale(1.1);
 }
 .numb{
-    height: 65px;
-    width: 80%; 
+    height: 85px;
+    width: 85%; 
     display: flex;
     justify-content: center;
     flex-direction: row;
     transition: transform .2s;
     border-radius: 5px;  
-    background-color:rgb(219, 189, 199);
+    border: 2px solid rgb(218, 175, 189);
+
+    background-color:white;
     box-shadow: 3px 3px 3px rgb(155, 155, 154);
 }
 .numb:hover {
@@ -119,20 +130,22 @@ body{
     height: 60px;
     width: 40%;
     display: flex;
-    font-size: 15px;
+    font-size: 19px;
     color: black;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
 
 }
 .social{
-    height: 670px;
-    width: 40%;
+    height: 550px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
+    background-color:rgb(182, 208, 233) ;
    
 }
  .top{
@@ -164,33 +177,38 @@ body{
     
 }
 .boxa{
-    height: 180px;
-    width: 48%;
-    justify-content: center;  
-    align-items: center;
+    height: 190px;
+    width: 50%;
+    border-radius: 10px;
+    align-items: end;
     display: flex;
     gap: 5px;
     flex-direction: column;
 
 }
 .boxb{
-    height: 180px;
-    width: 50%;
-    justify-content: center;  
-    align-items: center;
+    height: 190px;
+    width: 50%;  
+    border-radius: 10px;
     display: flex;
     gap: 5px;
+    
     flex-direction: column;
 }
 .box{
-    height: 90px;
-    width: 97%;
+    height: 80px;
+    width: 37%;
     display: flex;
+    gap: 2px;
+    border-radius: 10px;
     transition: transform .2s;
     justify-content: center;  
     align-items: center;
+    margin: 4px;
     flex-direction: column;
-    background-color:rgb(219, 189, 199);
+    background-color:white;
+    border: 3px solid rgb(207, 173, 185);
+
     
 }
 .box:hover {
@@ -216,7 +234,7 @@ body{
 .footer{
     height: 350px;
     width:100% ;
-   
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -252,7 +270,7 @@ body{
     transform: scale(1.1);
 }
 .img{
-    height: 25px;
+    height: 35px;
     width: 45px;
     border-radius: 80%;
     display: flex;
@@ -260,8 +278,8 @@ body{
     border: 2px solid palevioletred;
 }
 .img2{
-    height: 200px;
-    width: 75%;
+    height: 230px;
+    width: 38%;
     border-radius: 20px;
     display: flex;
     margin: 5px;
@@ -273,10 +291,10 @@ body{
     margin-bottom: 15px;
 }
 .img3{
-    height: 42px;
-    width: 26px;
+    height: 52px;
+    width: 36px;
     border-radius: 50%;
-    margin-top: 10px;
+    
     border: 1px solid white;
 }
 .img4{
@@ -284,13 +302,15 @@ body{
     width: 45px;
     border-radius: 90px;
     margin-top: 10px;
-    box-shadow: 2px 2px 2px rgb(155, 155, 154); 
+    box-shadow: 2px 2px 2px  rgb(155, 155, 154); 
 
 }
 .boxc{
     height: 200px;
     width: 135px;
-    border-radius: 3px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(163, 72, 102);
     margin-top: 10px;transition: transform .2s;
     box-shadow: 2px 2px 2px rgb(155, 155, 154); 
     margin-right:30px ;
@@ -301,10 +321,12 @@ body{
 .boxd{
     height: 200px;
     width: 135px;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-top: 10px;transition: transform .2s;
     box-shadow: 2px 2px 2px rgb(155, 155, 154); 
     margin-right:30px ;
+    background-color: white;
+    border: 2px solid rgb(163, 72, 102);
 }
 .boxd:hover {
     transform: scale(1.1);
@@ -312,10 +334,13 @@ body{
 .boxe{
     height: 200px;
     width: 135px;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-top: 10px;transition: transform .2s;
     box-shadow: 2px 2px 2px rgb(155, 155, 154); 
     margin-right:30px ;
+    background-color: white;
+    border: 2px solid rgb(163, 72, 102);
+
 }
 .boxe:hover {
     transform: scale(1.1);
@@ -326,7 +351,7 @@ body{
         width: 220px;
         border-radius: 14px;
         margin-bottom: 40px;transition: transform .2s;
-        box-shadow: 2px 2px 2px rgb(155, 155, 154); 
+        box-shadow: 2px 2px 2px  rgb(155, 155, 154); 
         z-index: 3;
         position: relative;
         margin-top: 0px;
@@ -344,7 +369,7 @@ body{
 .h2-m{
     margin: 5px; 
     font-size: 44px;
-    width: 15%;
+    width: 16%;
   }
 .p{
     height: 40px;
@@ -353,17 +378,17 @@ body{
     justify-content: center;
     align-items: center;
     
-    font-size:15px;
+    font-size:19px;
 
 }
 .p-m{
     height: 40px;
-    width: 440px;
+    width: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
-    font-size:17px;
+    margin-top: 5px;
+    font-size:19px;
 
 }
 .p-head{
@@ -377,6 +402,6 @@ body{
 
 }
 .para1{
-   font-size: 12px;
-    margin-bottom: 10px;
+   font-size: 15px;
+    margin-bottom: 0px;
 }
