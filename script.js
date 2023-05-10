@@ -1,8 +1,8 @@
-let menu=document.querySelector('#menu-btn');
+let menu = document.querySelector('#menu-btn');
 let navbar=document.querySelector('.navbar');
 
-menubar.onclick=() =>{
-    menu.classList.toggle('fa-times')
+menu.onclick=() =>{
+     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active')
 }
 window.onscroll = () =>{
@@ -57,37 +57,3 @@ function carousel() {
   dots[slideIndex-1].className += " active";
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
-/*var timeOut = 2000;
-var slideIndex = 0;
-var autoOn = true;
-
-autoSlides();
-
-function autoSlides() {
-    timeOut = timeOut - 20;
-
-    if (autoOn == true && timeOut < 0) {
-        showSlides();
-    }
-    setTimeout(autoSlides, 20);
-}
-
-function showSlides() {
-
-    timeOut = 2000;
-
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slideIndex++;
-
-    if (slideIndex > slides.length) {
-        slideIndex = 1
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-}*/
