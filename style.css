@@ -206,7 +206,51 @@ section:nth-child(even)
    text-align: center;
    padding: 2.5rem;
 }
+.Table-container{
+   display: grid;
+   gap:2rem;
+   grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
 
+.Table-container .cell{
+   border:var(--border);
+   box-shadow: var(--box-shadow);
+   border-radius: .5rem;
+   text-align: center;
+   padding: 2.5rem;
+}
+
+.cell .tooltip{
+   position: relative;
+   display: inline-block;
+   border-bottom: 2px hidden;
+   font-size: 20px;
+   height:100px;
+ }
+ .tooltiptext span{
+   place-content: 100%;
+   
+ }
+ .tooltip .tooltiptext {
+   visibility: hidden;
+   width: 500px;
+   background-color: rgb(183,209,231);
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 5px;
+   font-size: 20px;
+ 
+   /* Position the tooltip */
+   position: absolute;
+   z-index: 1;
+ }
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity:1;
+ }
 .cell p{
    position: relative;
    display: inline-block;
