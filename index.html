@@ -21,12 +21,60 @@
             <a href="#Review">Review</a>
            <a href="./contact.html">Contact Us</a>
            <a href="./up.html">Appointment </a>
+           <a class="btn">Entry Form</a>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </header>
 <!--header section  Ends-->        
      <!--home section  starts-->
     <section class="home" id="home">
+        <div id="wrapper">
+            <div class="small-box">
+            <h2>Entry detials</h2>
+            <p>
+              <span>Staff</span> 
+              <button class="button" data-modal="modalOne">Login</button>
+            </p>
+            <p>
+               <span>Vistors</span> 
+              <button class="button" data-modal="modalTwo">Sign up</button>
+            </p>
+            </div>
+            <div id="modalOne" class="modal">
+              <div class="modal-content">
+                <div class="login-form">
+                  <a class="close">&times;</a>
+                  <form action="/">
+                    <h2>Login </h2>
+                    <div>
+                      <input type="text" name="name" placeholder="Email" />
+                      <input type="password" name="password" placeholder="Enter Password" />
+                        <a href="#">Forgot password?</a>
+                    <button type="submit" href="/">Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id="modalTwo" class="modal">
+                <div class="modal-content">
+                  <div class="login-form">
+                    <span class="close">&times;</span>
+                    <form action="/">
+                      <h2>Sin Up</h2>
+                      <div>
+                        <input class="fname" type="text" name="name" placeholder="Full name" />
+                        <input type="text" name="name" placeholder="Email" />
+                        <input type="password" placeholder="create-password" />
+                        <input type="password" placeholder="confirm-password" />
+                        <input type="text" name="name" placeholder="Phone number" />
+                    </div>
+                      <button type="submit" href="/">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <img src="./images/img1.jpg" alt="">
