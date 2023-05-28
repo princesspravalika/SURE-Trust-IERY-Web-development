@@ -10,71 +10,44 @@
     </head>
     <body>
        <!--header section  starts-->
-    <header class ="header">
-        <img src="images/heart.png" id="logo" alt="">
-        <h2>SURE Trust</h2>
-        <nav class="navbar">
-            <a href="#Home">Home </a>
-            <a href="#About Us">About Us</a>
-            <a href="#Services">Services</a>
-            <a href="#Doctors">Doctors</a>
-            <a href="#Review">Review</a>
-           <a href="./contact.html">Contact Us</a>
-           <a href="./up.html">Appointment </a>
-           <a class="btn">Entry Form</a>
-        </nav>
+    <header class="header">
+         <nav class="navbar-one flex">
+            <div class="left flex">
+            <div><i class="fas fa-phone-square-alt"> + 8801688238801</i>       </div>
+           <div><i class="fas fa-envelope"> mounika29@gmail.com </i></div>
+           </div>
+            <div class="right flex">
+                  <div><i class="fab fa-facebook-f"></i>
+                    <a href="#facebook"></a></div>
+                  <div><i class="fab fa-twitter"> </i>  
+                    <a href="#twitter">  </a></div>
+                  <div><i class="fab fa-instagram"> </i>
+                    <a href="#instagram"></a></div>
+                  <div><i class="fab fa-linkedin"> </i> 
+                    <a href="#linkedin"></a></div>
+            </div>
+        <i class="fas fa-contact"><a href="./contact.html" class="contact"> contact us</i></a>
+         </nav>
+         <nav class="navbar-second flex">
+          <ol class="flex">
+            <li><img src="images/heart.png" id="logo" alt=""></li>
+            <li><h2>SURE Trust</h2></li>
+          </ol>
+          <ul class="flex">
+              <li><a href="#Home">Home </a></li>
+              <li><a href="#About Us">About Us</a></li>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#Feedback">Feedback</a></li>
+              <li><a href="#Update">Update</a></li>
+              <li><a href="./up.html">Login </a></li>  
+            </ul>
+            </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </header>
 <!--header section  Ends-->        
      <!--home section  starts-->
     <section class="home" id="home">
-        <div id="wrapper">
-            <div class="small-box">
-            <h2>Entry detials</h2>
-            <p>
-              <span>Staff</span> 
-              <button class="button" data-modal="modalOne">Login</button>
-            </p>
-            <p>
-               <span>Vistors</span> 
-              <button class="button" data-modal="modalTwo">Sign up</button>
-            </p>
-            </div>
-            <div id="modalOne" class="modal">
-              <div class="modal-content">
-                <div class="login-form">
-                  <a class="close">&times;</a>
-                  <form action="/">
-                    <h2>Login </h2>
-                    <div>
-                      <input type="text" name="name" placeholder="Email" />
-                      <input type="password" name="password" placeholder="Enter Password" />
-                        <a href="#">Forgot password?</a>
-                    <button type="submit" href="/">Submit</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div id="modalTwo" class="modal">
-                <div class="modal-content">
-                  <div class="login-form">
-                    <span class="close">&times;</span>
-                    <form action="/">
-                      <h2>Sin Up</h2>
-                      <div>
-                        <input class="fname" type="text" name="name" placeholder="Full name" />
-                        <input type="text" name="name" placeholder="Email" />
-                        <input type="password" placeholder="create-password" />
-                        <input type="password" placeholder="confirm-password" />
-                        <input type="text" name="name" placeholder="Phone number" />
-                    </div>
-                      <button type="submit" href="/">Submit</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-        </div>
+       
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <img src="./images/img1.jpg" alt="">
@@ -179,39 +152,59 @@
     <div class="box-container">
 
         <div class="box">
+            <i class='fas fa-notes-medical'></i>
             <h3>free checkups</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
             <a href="#" class="btn"> learn more </a>
         </div>
 
         <div class="box">
+            <i class='fas fa-ambulance'></i>
             <h3>24/7 ambulance</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
             <a href="#" class="btn"> learn more</a>
         </div>
 
         <div class="box">
+            <i class='fas fa-user-md'></i>
             <h3>expert doctors</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
             <a href="#" class="btn"> learn more </a>
         </div>
 
         <div class="box">
+            <i class='fas fa-capsules'></i>
             <h3>medicines</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
             <a href="#" class="btn"> learn more </a>
         </div>
 
         <div class="box">
+            <i class='fas fa-bed'></i> 
             <h3>bed facility</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
             <a href="#" class="btn"> learn more </a>
         </div>
 
         <div class="box">
-            <h3>total care</h3>
+            <i class='fas fa-bell'></i> 
+            <h3>Emergency Room</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
             <a href="#" class="btn"> learn more  </a>
+        </div> 
+
+        <div class="box">
+            <i class='fas fa-flask'></i>
+            <h3>Laboratory</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more </a>
+        </div>
+
+        <div class="box">
+            <i class='fas fa-syringe'></i>
+            <h3 >Vaccination</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <a href="#" class="btn"> learn more </a>
         </div>
 
     </div>
@@ -234,7 +227,7 @@
             <h3>ABC</h3>
             <span>expert doctor</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-facebook-f"></a>
                 <a href="#" class="fab fa-twitter"></a>
                 <a href="#" class="fab fa-instagram"></a>
                 <a href="#" class="fab fa-linkedin"></a>
@@ -424,7 +417,7 @@
 
         <div class="box">
             <h3>appointment info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +8801688238801 </a>
+            <a href="#"> <i class="fas fa-phone-square-alt"></i> +8801688238801 </a>
             <a href="#"> <i class="fas fa-envelope"></i> mounika29@gmail.com </a>
             <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
         </div>

@@ -1,6 +1,7 @@
 let menu = document.querySelector('#menu-btn');
 let navbar=document.querySelector('.navbar');
-
+let wapper=document.querySelector('wapper');
+const btnPopup=document.querySelector('btnLogin-popup');
 menu.onclick=() =>{
      menu.classList.toggle('fa-times');
     navbar.classList.toggle('active')
